@@ -64,15 +64,6 @@ export default function Login() {
             </Button>
           </form>
 
-          <div className="mt-6 text-center">
-            <p className="text-gray-600">
-              Don't have an account?{' '}
-              <Link to="/register" className="text-primary-600 hover:text-primary-700 font-medium">
-                Register
-              </Link>
-            </p>
-          </div>
-
           <div className="mt-8 p-4 bg-blue-50 rounded-lg">
             <p className="text-sm font-medium text-blue-900 mb-2">Demo Accounts:</p>
             <div className="space-y-1 text-xs text-blue-700">
